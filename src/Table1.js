@@ -100,7 +100,7 @@ const Table1 = ({ data}) => {
       <h1>SCREEN1</h1>
       <label for="gs">  Search</label>
       <input type="text" onChange={handleSearc}  name="gs" placeholder="Search" />
-      <Link to ="/"><button>back</button></Link>
+      <Link to ="/"><button style={{background:"gray"}}>back</button></Link>
 
       </div>
 
