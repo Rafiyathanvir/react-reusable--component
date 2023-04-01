@@ -45,11 +45,7 @@ const Table2 = () => {
       })
     : data;
 
-  const handleRefresh = () => {
-    setData(initialData);
-    setSortColumn(null);
-    setSortDirection(null);
-  };
+ 
 
   return (
     <>
@@ -57,7 +53,7 @@ const Table2 = () => {
     <h2 className="h2">Screen2 Sorting </h2>
     <h4>Click the Heading to see Sorting</h4>
     <div className="re">
-    <button   onClick={handleRefresh}>Refresh</button>
+    <button    onClick={() => window.location.reload()}>Refresh</button>
     
     <Link to ="/"><button style={{background:"gray"}}>back</button></Link>
 
