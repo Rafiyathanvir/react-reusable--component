@@ -5,6 +5,14 @@ body{
   background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d2b9dfb.png");
 
 }
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
 
 .App-logo {
   height: 40vmin;
