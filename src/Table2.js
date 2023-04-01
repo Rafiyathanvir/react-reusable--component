@@ -59,7 +59,7 @@ const Table2 = () => {
     <div className="re">
     <button   onClick={handleRefresh}>Refresh</button>
     
-    <Link to ="/"><button>back</button></Link>
+    <Link to ="/"><button style={{background:"gray"}}>back</button></Link>
 
     </div>
 
